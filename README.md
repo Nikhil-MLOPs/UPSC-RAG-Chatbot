@@ -1,3 +1,14 @@
+---
+title: UPSC RAG Chatbot
+emoji: 📚
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.0.0"
+app_file: app.py
+pinned: false
+---
+
 # UPSC RAG Chatbot
 
 A fully open-source, 0-cost **Retrieval-Augmented Generation (RAG)** chatbot for UPSC preparation.
