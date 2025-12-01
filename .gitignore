@@ -20,3 +20,5 @@ mlruns/
 .idea/
 
 junk_notes.ipynb
+# Local artifacts
+artifacts/
