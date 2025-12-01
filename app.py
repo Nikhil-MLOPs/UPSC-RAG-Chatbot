@@ -6,5 +6,8 @@ from app.ui.gradio_app import create_interface
 demo = create_interface()
 
 if __name__ == "__main__":
-    # Local launch
-    demo.launch()
+    # Local & Docker launch
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=7860,
+    )
