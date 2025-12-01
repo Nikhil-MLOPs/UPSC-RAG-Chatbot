@@ -24,6 +24,15 @@ class RAGConfig:
     # Retrieval
     top_k: int = 5
 
+    # LLM model (small, CPU-friendly)
+    # You can change this later if you want to experiment.
+    llm_model_name: str = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+
+    # Generation params
+    max_new_tokens: int = 256
+    temperature: float = 0.3
+    top_p: float = 0.9
+
     @property
     def index_path(self) -> Path:
         return self.index_dir / f"{self.index_name}.bin"

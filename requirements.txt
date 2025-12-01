@@ -22,3 +22,5 @@ loguru
 
 pypdf
 numpy
+torch
+transformers
