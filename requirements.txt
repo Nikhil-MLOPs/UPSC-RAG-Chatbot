@@ -1,0 +1,20 @@
+# Core
+python-dotenv
+
+# RAG stack (to be used later)
+transformers
+sentence-transformers
+faiss-cpu
+accelerate
+
+# Web UI
+gradio
+
+# MLOps
+dvc
+mlflow
+
+# Utils
+pydantic
+tqdm
+loguru

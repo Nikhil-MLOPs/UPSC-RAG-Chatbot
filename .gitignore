@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+
+# Data & models (tracked via DVC later)
+data/processed/
+data/indexes/
+mlruns/
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+junk_notes.ipynb
