@@ -18,3 +18,6 @@ mlflow
 pydantic
 tqdm
 loguru
+
+
+pypdf

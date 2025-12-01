@@ -8,8 +8,9 @@ __pycache__/
 .venv/
 
 # Data & models (tracked via DVC later)
-data/processed/
-data/indexes/
+data/*
+!data/*.dvc
+!data/.gitignore
 mlruns/
 
 # OS / editor
