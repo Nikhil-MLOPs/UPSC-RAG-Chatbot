@@ -7,11 +7,18 @@ __pycache__/
 # Virtual env
 .venv/
 
-# Data & models (tracked via DVC later)
+# Ignore all data except indexes (needed for Hugging Face deployment)
 data/*
+!data/indexes/
+!data/indexes/**
+
+# Allow DVC metadata (optional for future)
 !data/*.dvc
 !data/.gitignore
+
+# Prevent mlflow artifacts and raw data from being tracked
 mlruns/
+
 
 # OS / editor
 .DS_Store
